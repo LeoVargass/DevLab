@@ -1,0 +1,19 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "el-mojon-web",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "5177", "--bind", "127.0.0.1", "--directory", "el-mojon/web"],
+      "port": 5177,
+      "url": "http://localhost:5177/"
+    },
+    {
+      "name": "el-mojon-menu",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "5188", "--bind", "127.0.0.1", "--directory", "el-mojon/menudigitalmojon"],
+      "port": 5188,
+      "url": "http://localhost:5188/"
+    }
+  ]
+}

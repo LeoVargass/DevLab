@@ -1,0 +1,36 @@
+# System
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+.cache/
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+
+# OS-generated / scratch
+*.tmp
+*.bak
+__pycache__/
+*.pyc
